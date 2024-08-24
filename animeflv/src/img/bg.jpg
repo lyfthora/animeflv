@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Error 404 — AnimeFLV</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/assets/animeflv/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="/assets/animeflv/css/css.css?v=1.2.7" />
+<link rel="stylesheet" type="text/css" href="/assets/animeflv/css/bootstrap.css" />
+<script type="text/javascript" src="/assets/animeflv/js/modernizr.js"></script>
+<script src="https://apis.google.com/js/platform.js"></script>
+<meta name="verify-admitad" content="34e2b77cc8" />
+<meta content='es' http-equiv='content-language' />
+<meta content='es' name='language' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="fb:app_id" content="1730508916998105" />
+<link rel="manifest" href="/manifest.json" />
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9466b52c-dbbb-463c-ac6c-b176877cab25" data-blockingmode="auto" type="text/javascript"></script>
+<script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({article:'auto'});
+        !function (e, f, u, i) {
+          if (!document.getElementById(i)){
+            e.async = 1;
+            e.src = u;
+            e.id = i;
+            f.parentNode.insertBefore(e, f);
+          }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        '//cdn.taboola.com/libtrc/hotideias1-network/loader.js',
+        'tb_loader_script');
+        if(window.performance && typeof window.performance.mark == 'function')
+          {window.performance.mark('tbl_ic');}
+      </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0&appId=1730508916998105&autoLogAppEvents=1"></script>
+<script src="/js/ads.js"></script>
+<div class="FollowUs">
+<div class="Container">
+<div class="close-dv">
+<button class="close-social"><i class="fa-times"></i></button>
+</div>
+<aside>
+<div class="ttl">¿Ya sigues nuestras Redes Sociales?</div>
+<p>Si quieres mantenerte informado de nuestros proximos proyectos, no olvides visitar nuestras redes sociales</p>
+</aside>
+<ul>
+<li class="fcb">
+<a href="https://www.facebook.com/armyanime/" target="_blank">
+<i class="fa-facebook"></i>
+<span>@Anime Army</span>
+</a>
+</li>
+<li class="twt">
+<a href="https://twitter.com/ArmyAnime_" target="_blank">
+<i class="fa-twitter"></i>
+<span>@Anime Army</span>
+</a>
+</li>
+<li class="nst">
+<a href="https://www.instagram.com/animearmy.jp/" target="_blank">
+<i class="fa-instagram"></i>
+<span>@Anime Army</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="Wrapper">
+
+<header class="Header">
+<div class="Mid">
+<div class="Container">
+<div class="AX Row AFluid">
+<div class="Logo">
+<a href="/"><img src="/assets/animeflv/img/logo.png?v=2.3" alt="AnimeFLV" /></a>
+</div>
+<div class="AFixed">
+<input type="checkbox" hidden="hidden" id="BtnMenu">
+<label for="BtnMenu" class="BtnMenu fa-bars"><span>MENU</span></label>
+<nav class="CX Row">
+<input type="checkbox" hidden="hidden" id="Hd-Search">
+ <div class="Search"> 
+<form action="/browse" method="get">
+<input name="q" type="text" id="search-anime" autocomplete="off" placeholder="Buscar...">
+<button><i class="fa-search"></i></button>
+</form>
+<div class="DpdwCnt TtCn">
+<ul class="ListResult"></ul>
+</div>
+</div>
+<div class="Login">
+<input type="checkbox" hidden="hidden" id="DpdwLnk-Login">
+<label for="DpdwLnk-Login" class="Button"><span class="fa-user">Login</span></label>
+<div class="DpdwCnt TtCn">
+<div class="Title">INICIAR SESION</div>
+<form action="/auth/sign_in" class="form-horizontal" method="POST"> <label class="Form-Icon Right">
+<input name="email" type="text" placeholder="E-Mail">
+<i class="fa-user"></i>
+</label>
+<label class="Form-Icon Right">
+<input name="password" type="password" placeholder="Contraseña">
+<input type="hidden" name="remember_me" value="1">
+<i class="fa-lock"></i>
+</label>
+<button type="submit">INICIAR SESIÓN</button>
+<a href="/auth/facebook/sign_in" rel="nofollow" class="Button fb_login"><span class="fa-facebook">INICIAR SESION CON FB</span></a>
+<div class="Links">
+<a href="/auth/sign_up" rel="nofollow">Registrate</a>
+<a href="/auth/password/new" rel="nofollow">¿Olvidaste tu contraseña?</a>
+</div>
+</form> </div>
+</div>
+<ul class="Menu">
+<li><a href="/">Inicio</a></li>
+<li><a href="/browse">Directorio Anime</a></li>
+</ul>
+<ul class="ListSocial BFixed">
+<li><a href="https://www.facebook.com/AnimeFLV/" rel="nofollow" target="_blank" class="fa-facebook"></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<div class="Body">
+<div class="Container Page404Cn">
+<div class="Page404">
+<figure><img src="/assets/animeflv/img/cnt/animeflv-404.png" alt=""></figure>
+<div class="Title">Ooops!!!...</div>
+<div class="SubTitle">Parece que la pagina no existe.</div>
+<a href="/" class="Button">REGRESAR AL INICIO</a>
+</div>
+</div>
+</div>
+
+
+<footer class="Footer">
+<div class="Container">
+<div class="BX Row BFluid Sp20 NMb">
+<div><p><span>Anime Online</span> - Ningún vídeo se encuentra alojado en nuestros servidores.</p>
+<nav class="mnftxt">
+<a href="/condiciones-de-uso.html">Términos y Condiciones</a>
+<a href="/politica-de-privacidad.html">Política de Privacidad</a>
+<a href="/sobre-animeflv.html">Sobre AnimeFLV</a>
+</nav>
+</div>
+<ul class="ListSocial BFixed">
+<li><a href="https://www.facebook.com/AnimeFLV/" target="_blank" class="fa-facebook"></a></li>
+<li><a href="https://www.youtube.com/c/kudasai" target="_blank" class="fa-youtube"></a></li>
+</ul>
+</div>
+</div>
+</footer>
+
+</div>
+
+
+<script>var is_user = false;</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/animeflv/js/jquery.typewatch.min.js"></script>
+<script type="text/javascript" src="/assets/animeflv/js/scrlbr.js"></script>
+<script type="text/javascript" src="/assets/animeflv/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/assets/animeflv/js/percircle.min.js"></script>
+<script type="text/javascript" src="/assets/animeflv/js/funciones.js?v=1.1.22"></script>
+<script type="text/javascript" src="/assets/animeflv/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/animeflv/js/alertify.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/assets/animeflv/js/ie/css3mq.js"></script>
+<![endif]-->
+<!--[if lte IE 9]><script type="text/javascript" src="/assets/animeflv/js/ie/ie.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p--mN3UcHCw6ueQ"
+});
+</script>
+<script type="text/javascript" src="https://hotideiasnetwork.ga/random.js" async></script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p--mN3UcHCw6ueQ.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+
+<script id="dsq-count-scr" src="//https-animeflv-net.disqus.com/count.js" async></script>
+<script src="/js/detector.js?v=1.0.1"></script>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+</body>
+</html>
