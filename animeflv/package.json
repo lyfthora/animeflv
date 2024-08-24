@@ -1,0 +1,12 @@
+{
+  "name": "animeflv",
+  "version": "0.1.0",
+  "private": true,
+  "overrides": {
+    "react-scripts": {
+      "@svgr/webpack": "8.1.0",
+      "typescript": "4.9.5",
+      "postcss": "8.4.38"
+    }
+  }
+}
