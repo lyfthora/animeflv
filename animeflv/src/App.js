@@ -8,9 +8,7 @@ const home = lazy(() => import("./components/home/home"));
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/" component={home} exact />
-      </Switch>
+      <Route path="/" element={home} exact />
     </Router>
   );
 }
