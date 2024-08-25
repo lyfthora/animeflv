@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import Logo from "../../img/logo.webp";
+import { Link } from "react-router-dom";
+import Routes from "../../routing/configRouting";
 
 const Header = () => {
   return (
@@ -16,10 +18,10 @@ const Header = () => {
               <div className="nav-options">
                 <ul className="menu-navegation">
                   <li>
-                    <a href="">INICIO</a>
+                    <Link to={Routes.home}>INICIO</Link>
                   </li>
                   <li>
-                    <a href="">DIRECTORIO ANIME</a>
+                    <Link to={Routes.directorio}>DIRECTORIO ANIME</Link>
                   </li>
                 </ul>
                 <div className="search">
