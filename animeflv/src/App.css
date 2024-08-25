@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("../img/bg.webp") #fff;
+  background: url("./img/bg.webp") #fff;
   height: 100%;
   color: #9da1a4;
 }
