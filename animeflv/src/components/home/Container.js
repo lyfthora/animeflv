@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import Siguenos from "../../img/fb-flv.webp";
 const Container = () => {
   return (
     <Fragment>
@@ -7,7 +7,7 @@ const Container = () => {
         <div className="container-body margin-container">
           <aside className="sidebar MC__fixed">
             <a href="">
-              <img src="img/fb-flv.webp" alt="siguenos" />
+              <img src={Siguenos} alt="siguenos" />
             </a>
             <div className="widget-emision">
               <div className="title-emision fa-play">

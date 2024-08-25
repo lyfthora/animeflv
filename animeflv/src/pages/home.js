@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import Header from "../home/Layouts/Header";
-import Footer from "../home/Layouts/Footer";
-import Container from "../home/Container";
+import Header from "../components/Layouts/Header";
+import Footer from "../components/Layouts/Footer";
+import Container from "../components/Home/Container";
 
 const Home = () => {
   return (

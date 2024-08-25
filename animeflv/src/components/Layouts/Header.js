@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Logo from "../../../img/logo.webp";
+import Logo from "../../img/logo.webp";
 
 const Header = () => {
   return (
