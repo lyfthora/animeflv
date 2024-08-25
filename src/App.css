@@ -1368,3 +1368,118 @@ a[class*="fa-"] {
   margin-bottom: 0;
   color: #3b4248;
 }
+
+.Title-section.fa-star {
+  padding-left: 55px;
+}
+
+.Title-section.fa-star::before {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  background-color: #ffba00;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZC11Y2dnLWdlbmVyYXRlZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmJhMDAiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmODAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cGF0aCBkPSJNMCAwaDF2MUgweiIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 186, 0, 1) 0%,
+    rgba(255, 128, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 186, 0, 1) 0%,
+    rgba(255, 128, 0, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(255, 186, 0, 1) 0%,
+    rgba(255, 128, 0, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 186, 0, 1) 0%,
+    rgba(255, 128, 0, 1) 100%
+  );
+}
+
+.Title-section.fa-star::after {
+  width: 30px;
+  height: 20px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255, 0.15);
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0px;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.filters .multiselect-filter {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.filters .multiselect-filter .btn-multiselect {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #fff !important;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  outline: none;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  border-radius: 30px;
+}
+
+.filters .multiselect-filter .btn-multiselect .multiselect-selected-text {
+  font-weight: 400;
+  opacity: 0.6;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.filters .caret {
+  border: 0;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: top;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.filters .caret::before {
+  font-family: FontAwesome;
+  content: "\f078";
+  color: #00bcf2;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -1px;
+  margin-left: 3px;
+  font-weight: 400;
+}
