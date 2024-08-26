@@ -1483,3 +1483,94 @@ a[class*="fa-"] {
   margin-left: 3px;
   font-weight: 400;
 }
+
+.multiselect-container {
+  position: absolute;
+  display: block;
+  width: 580px;
+  max-width: 90vw;
+  top: 100%;
+  z-index: 100000;
+  left: 0;
+  float: left;
+  min-width: 160px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0 0 0 / 18%);
+  background-clip: padding-box;
+}
+
+.zoomIn {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: zoomIn;
+  border: 0;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  padding: 10px;
+  margin-top: 10px !important;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+
+.multiselect-container .select-checkbox {
+  width: 25%;
+  float: left;
+  font-size: 12px;
+  padding: 0;
+  text-overflow: ellipsis;
+}
+
+.select-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.select-checkbox input[type="checkbox"] + .filter-select-checkbox {
+  position: relative;
+  line-height: 30px;
+  padding: 5px 10px 5px 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s all;
+  color: #333;
+}
+
+.select-checkbox input[type="checkbox"]:checked + .filter-select-checkbox {
+  position: relative;
+  transition: 0.2s;
+  font-size: 12px;
+  color: #00bcf2;
+  background-color: white;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.select-checkbox
+  input[type="checkbox"]:checked
+  ~ .filter-select-checkbox::before {
+  background-color: #00bcf2;
+}
+
+.filter-select-checkbox::before {
+  content: "";
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #e0e1e2;
+  height: 12px;
+  width: 12px;
+  transition: 0.2s;
+  margin-left: -20px;
+  margin-right: 10px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+}

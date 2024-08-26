@@ -2,6 +2,18 @@ import React, { Fragment } from "react";
 import Cover from "../../img/cover.jpg";
 const Container = () => {
   const newObj = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const gnro = [
+    "Acción",
+    "Aventura",
+    "Comedia",
+    "Drama",
+    "Fantasía",
+    "Histórico",
+    "Misterio",
+    "Romance",
+    "Suspense",
+    "Terror",
+  ];
   return (
     <Fragment>
       <section className="container-principal">
@@ -16,35 +28,23 @@ const Container = () => {
                   <span className="multiselect-filter">
                     <button className="btn-multiselect">
                       <span className="multiselect-selected-text">
-                        <b>Genero</b>
+                        <b>Genero: </b>
                         Todos
                       </span>
+                      <b className="caret"></b>
                     </button>
-                    <div className="multiselect-container zommIn">
-                      <div>
-                        <input type="checkbox" />
-                        <label>Acción</label>
-                      </div>
-                      <div>
-                        <input type="checkbox" />
-                        <label>Acción</label>
-                      </div>
-                      <div>
-                        <input type="checkbox" />
-                        <label>Acción</label>
-                      </div>
-                      <div>
-                        <input type="checkbox" />
-                        <label>Acción</label>
-                      </div>
-                      <div>
-                        <input type="checkbox" />
-                        <label>Acción</label>
-                      </div>
-                      <div>
-                        <input type="checkbox" />
-                        <label>Acción</label>
-                      </div>
+                    <div className="multiselect-container zoomIn">
+                      {gnro.map((obj) => (
+                        <div className="select-checkbox">
+                          <input type="checkbox" id={obj} />
+                          <label
+                            htmlFor={obj}
+                            className="filter-select-checkbox"
+                          >
+                            {obj}
+                          </label>
+                        </div>
+                      ))}
                     </div>
                   </span>
                 </div>
