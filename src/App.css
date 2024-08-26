@@ -1553,9 +1553,10 @@ a[class*="fa-"] {
   vertical-align: middle;
   line-height: 30px;
 }
+
 .select-checkbox
   input[type="checkbox"]:checked
-  ~ .filter-select-checkbox::before {
+  + .filter-select-checkbox::before {
   background-color: #00bcf2;
 }
 
@@ -1573,4 +1574,33 @@ a[class*="fa-"] {
   line-height: 30px;
   text-align: center;
   position: relative;
+}
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.pagination a {
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+  margin: 0 3px 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination a:hover,
+.pagination a.active {
+  background-color: #01bcf3;
+  color: white;
 }
